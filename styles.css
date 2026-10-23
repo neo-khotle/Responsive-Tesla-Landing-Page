@@ -372,11 +372,7 @@ footer{
         height: 600px;
     }
     
-     .fsd-tablet-view {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
+     
 
     .fsd-buttons {
         padding-left: 20px;
@@ -452,6 +448,8 @@ footer{
     }
 
     .stats {
+        display: flex;
+        flex-direction: column ;
         gap: 20px;
     }
 
